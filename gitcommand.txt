@@ -1,0 +1,29 @@
+
+
+
+
+1. This command creates a hidden .git directory and turns the folder into a Git repository.
+   git init
+
+2. To see which files are untracked, modified, or staged, you can use:
+   git status
+
+3. This adds all the files in the folder. You can also add specific files by replacing . with the file name, like git add file1.txtThis adds all the files in the folder. You can also add specific files by replacing . with the file name, like git add file1.txt
+
+git add .
+
+4. Now, commit the changes with a message describing what you've done:
+   git commit -m "Initial commit"
+
+5. Link to remote GitHub repository
+  git remote add origin https://github.com/username/repository-name.git
+
+6. Push changes to GitHub (initial push)
+  git push -u origin master  # or `main` if using default branch
+
+7. Pull changes from GitHub 
+  git pull origin master  # or `main` if using default branch
+
+8. View commit history
+   git log
+
